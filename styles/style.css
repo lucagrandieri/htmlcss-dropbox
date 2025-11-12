@@ -14,8 +14,20 @@ a {
     color: black;
 }
 
+ul {
+    list-style: none;
+}
+
+.text-white {
+    color: white;
+}
+
 .background-white {
     background-color: white;
+}
+
+.background-black {
+    background-color: black;
 }
 
 .header-container {
@@ -38,4 +50,36 @@ a {
     color: white;
     background-color: #0061fe;
     padding: 1rem 1.5rem;
+}
+
+.footer-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10rem;
+    justify-content: space-between;
+}
+
+.ul-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1.5rem;
+    font-size: 2rem;
+}
+
+.h3-padding {
+    padding-bottom: 1.5rem;
+}
+
+.italiano {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid #999da0;
+    color: #999da0;
+    width: 7%;
+    margin-left: 35rem;
+    font-size: 2rem;
+    padding: 5rem 0;
 }
