@@ -122,3 +122,147 @@ ul {
     max-width:none;
     margin-bottom: -140px;
 }
+
+.business-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+    gap: 3rem;
+}
+
+.plan-title {
+    font-size: 3rem;
+}
+
+.radio {
+    display: flex;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.cards-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.card-header {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card {
+    width: calc(100% / 3);
+    border: 2px solid gray;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 2rem;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.line {
+    width: 5%;
+    color: gray;
+}
+
+.fa-check {
+    color: #0061fe;
+}
+
+.buy-now {
+    color: #0061fe;
+    text-decoration: underline;
+}
+
+.line {
+  width: 10%;
+  height: 2px;
+  background-color: gray;
+}
+
+.enterprise-card {
+    width: 60%;
+    border: 2px solid gray;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.enterprise-header {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.enterprise-text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.btn2 {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    color: white;
+    background-color: #0061fe;
+    padding: 1rem 1.5rem;
+}
+
+.partner-container {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+.partner-img {
+    flex: 1;
+}
+
+.partner-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.partner-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.btn3 {
+    border: 2px solid black;
+    padding: 1rem 1.5rem;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
