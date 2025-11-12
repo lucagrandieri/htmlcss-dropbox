@@ -6,7 +6,6 @@
 
 html {
     font-family: "Open Sans", sans-serif;
-    font-size: 10px;
 }
 
 a {
@@ -16,6 +15,8 @@ a {
 
 ul {
     list-style: none;
+    padding-left: 0; 
+    margin: 0;
 }
 
 .text-white {
@@ -28,6 +29,10 @@ ul {
 
 .background-black {
     background-color: black;
+}
+
+.background-azure {
+    background-color: #b4d0e6;
 }
 
 .header-container {
@@ -46,7 +51,7 @@ ul {
     font-size: 1.5rem;
 }
 
-.inizia {
+.btn {
     color: white;
     background-color: #0061fe;
     padding: 1rem 1.5rem;
@@ -56,30 +61,64 @@ ul {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 10rem;
-    justify-content: space-between;
+    padding: 5rem 0;
 }
 
 .ul-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    gap: 1.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
+    gap: 1rem;
+    width: 20%;
 }
+
 
 .h3-padding {
-    padding-bottom: 1.5rem;
-}
+    padding-bottom: 1rem;
+} 
 
 .italiano {
-    display: flex;
-    justify-content: flex-start;
     border-top: 2px solid #999da0;
     color: #999da0;
-    width: 7%;
-    margin-left: 35rem;
-    font-size: 2rem;
+    width: 5%;
+    margin-left: 15rem;
+    font-size: 1rem;
+    padding: 3rem 0;
+}
+
+.section-1-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 5rem;
     padding: 5rem 0;
+}
+
+.text {
+    font-size: 2rem
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+}
+
+.section-1-text-container {
+    font-size: 1.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.jumbo {
+    display:block;
+    width: 110%;
+    overflow: visible;
+    max-width:none;
+    margin-bottom: -140px;
 }
