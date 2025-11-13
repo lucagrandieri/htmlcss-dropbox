@@ -14,12 +14,21 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <header class="background-white">
         <div class="header-container">
             <div class="header-box">
-                <a href=""><img src="./imgs/logo-small.png" alt="logo"></a>
+                <a href="#top"><img src="./imgs/logo-small.png" alt="logo"></a>
                 <a href="">Perché Dropbox</a>
-                <a href="">Funzioni</a>
+                <div class="dropdown">
+                    <button class="drop-btn">Funzioni</button>
+
+                    <div class="drop-menu">
+                        <a href="">Sicurezza</a>
+                        <a href="">Backup</a>
+                        <a href="">Condivisione</a>
+                    </div>
+                </div>
                 <a href="">Piani e Prezzi</a>
             </div>
             <div class="header-box">
@@ -46,7 +55,9 @@
                         <p>Annulla in qualsiasi momento</p>
                     </div>
                     <div>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#business">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
                     </div>
                 </div>
                 <div>
@@ -56,10 +67,19 @@
         </section>
         <section>
             <div class="business-container">
+                <div id="business"></div>
                 <h2 class="plan-title">Trova il piano business che fa per te</h2>
-                <p class="radio"><input type="radio" name="fatturazione" value="mensile" checked>
-                    Fatturazione mensile<input type="radio" name="fatturazione" value="annuale">
-                    Fatturazione annuale</p>
+                <div class="billing-toggle">
+                    <label class="billing-option">
+                        <input type="radio" name="fatturazione" value="mensile" checked>
+                        <span>Fatturazione mensile</span>
+                    </label>
+
+                    <label class="billing-option">
+                        <input type="radio" name="fatturazione" value="annuale">
+                        <span>Fatturazione annuale</span>
+                    </label>
+                </div>
             </div>
             <div class="cards-container">
                 <div class="card">
@@ -179,35 +199,35 @@
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox
                         Paper direttaemnte da Dropbox.</p>
                 </div>
-                 <div class="business-card">
+                <div class="business-card">
                     <img class="business-img" src="./imgs/business-feature-send-files-it.png" alt="send">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox
                         Paper direttaemnte da Dropbox.</p>
                 </div>
-                 <div class="business-card">
+                <div class="business-card">
                     <img class="business-img" src="./imgs/business-feature-coordinate-it.png" alt="coordinate">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox
                         Paper direttaemnte da Dropbox.</p>
                 </div>
-                 <div class="business-card">
+                <div class="business-card">
                     <img class="business-img" src="./imgs/business-feature-integrations-it.png" alt="integrations">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox
                         Paper direttaemnte da Dropbox.</p>
                 </div>
-                 <div class="business-card">
+                <div class="business-card">
                     <img class="business-img" src="./imgs/business-feature-multi-device.png" alt="multidevice">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
                         contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox
                         Paper direttaemnte da Dropbox.</p>
                 </div>
-                 <div class="business-card">
+                <div class="business-card">
                     <img class="business-img" src="./imgs/business-feature-security.png" alt="security">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
